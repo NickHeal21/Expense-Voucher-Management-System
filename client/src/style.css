@@ -1,0 +1,68 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #202b38;
+  background: #f4f6f8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+}
+
+.welcome-card {
+  width: min(100%, 680px);
+  padding: 48px;
+  background: #fff;
+  border: 1px solid #e0e5eb;
+  border-radius: 8px;
+}
+
+.eyebrow {
+  margin: 0 0 14px;
+  color: #4b647d;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.description {
+  margin: 18px 0 0;
+  color: #526171;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.status {
+  display: inline-block;
+  margin: 28px 0 0;
+  padding: 8px 12px;
+  color: #315c43;
+  background: #edf6ef;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 520px) {
+  .welcome-card {
+    padding: 30px 24px;
+  }
+}
