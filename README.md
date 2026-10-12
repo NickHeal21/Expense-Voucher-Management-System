@@ -1,6 +1,6 @@
 # PSPL Expense Voucher Management System
 
-A straightforward expense voucher workflow for Prachay Securities Private Limited. The app uses React and Vite, an Express API, and PostgreSQL.
+A straightforward expense voucher workflow for Prachay Securities Private Limited. The app uses React and Vite, an Express API, and PostgreSQL which is an assignment.
 
 ## Stack and prerequisites
 
