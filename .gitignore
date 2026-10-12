@@ -1,8 +1,7 @@
 node_modules/
 client/dist/
-server/.env
 server/uploads/
-client/.env
+**/.env
+!**/.env.example
 npm-debug.log*
 .DS_Store
-package.json
